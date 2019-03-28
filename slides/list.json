@@ -9,5 +9,10 @@
       "slack/who.md",
       "slack/how.md",
       "slack/apps.md"
+    ],
+    [
+      "hubot/hubot.md",
+      "hubot/what-is-hubot.md",
+      "hubot/why-use-hubot.md"
     ]
 ]
