@@ -1,1 +1,13 @@
-["index.md"]
+[
+    [
+        "welcome/index.md",
+        "welcome/about-me.md",
+        "welcome/slides.md"
+    ],
+    [
+      "slack/slack.md",
+      "slack/who.md",
+      "slack/how.md",
+      "slack/apps.md"
+    ]
+]
