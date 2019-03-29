@@ -13,6 +13,20 @@
     [
       "hubot/hubot.md",
       "hubot/what-is-hubot.md",
-      "hubot/why-use-hubot.md"
+      "hubot/why-use-hubot.md",
+      "hubot/packages.md"
+    ],
+    [
+      "getting-started/getting-started.md",
+      "getting-started/hubot-docs.md",
+      "getting-started/slack-docs.md",
+      "getting-started/what-can-we-do.md",
+      "getting-started/hello-world.md"
+    ],
+    [
+      "mentions/mentions.md",
+      "mentions/mentions-array.md",
+      "mentions/slack-mention-object.md",
+      "mentions/mention-user.md"
     ]
 ]
