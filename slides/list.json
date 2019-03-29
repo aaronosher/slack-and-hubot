@@ -28,5 +28,9 @@
       "mentions/mentions-array.md",
       "mentions/slack-mention-object.md",
       "mentions/mention-user.md"
+    ],
+    [
+      "threads/threads.md",
+      "threads/thread.md"
     ]
 ]
