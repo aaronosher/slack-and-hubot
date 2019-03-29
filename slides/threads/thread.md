@@ -1,1 +1,1 @@
-![Thread](../../resources/thread.png)
+![Thread](https://github.com/aaronosher/slack-and-hubot/raw/master/resources/thread.png)

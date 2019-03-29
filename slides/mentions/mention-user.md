@@ -4,4 +4,4 @@
   res.send(`Hey <@${userID}>`)
 ```
 
-![Mention](/../../../resources/mention.png) <!-- .element: class="fragment" -->
+![Mention](https://github.com/aaronosher/slack-and-hubot/raw/master/resources/mention.png) <!-- .element: class="fragment" -->
