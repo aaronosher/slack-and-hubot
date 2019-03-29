@@ -1,27 +1,24 @@
 {
-  "name": "slack-with-hubot",
-  "version": "1.0.0",
+  "name": "myHubot",
+  "version": "0.0.0",
   "private": true,
-  "devDependencies": {
-    "grunt": "^1.0.0",
-    "grunt-sass": "^2.0.0",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^1.1.0",
-    "load-grunt-tasks": "^3.5.2",
-    "grunt-build-control": "^0.7.1",
-    "grunt-coffeelint": "0.0.16",
-    "coffeelint": "^1.16.0"
+  "author": "User <user@example.com>",
+  "description": "A sample hubot for slack",
+  "dependencies": {
+    "@slack/client": "^5.0.0",
+    "@slack/interactive-messages": "^1.1.1",
+    "hubot": "^3.3.1",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-help": "^1.0.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-slack": "^4.6.0"
   },
   "engines": {
-    "node": ">=4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:aaronosher/slack-and-hubot.git"
+    "node": "10.15.x"
   },
   "scripts": {
-    "test": "grunt test"
+    "start": "HUBOT_SLACK_TOKEN=xoxb-448842384037-593190037445-vC5J1o1qECBiLrSXJZOfasrs SLACK_SIGNING_SECRET=64dfa9d2cdafa0b608b95746df9da6a4 ./bin/hubot --adapter slack --disable-httpd"
   }
 }
