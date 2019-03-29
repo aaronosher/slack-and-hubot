@@ -31,6 +31,15 @@
     ],
     [
       "threads/threads.md",
-      "threads/thread.md"
-    ]
+      "threads/thread.md",
+      "threads/thread_ts.md",
+      "threads/create.md"
+    ],
+    [
+      "actions/actions.md",
+      "actions/action.md",
+      "actions/attachment.md",
+      "actions/handled.md"
+    ],
+    "glitch.md"
 ]
